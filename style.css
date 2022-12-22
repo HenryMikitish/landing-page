@@ -25,7 +25,8 @@ body {
 }
 
 .information-illustrations {
-    display: flex
+    display: flex;
+    flex-direction: column;
 }
 
 .information-illustrations img {
@@ -35,5 +36,15 @@ body {
 
 .quote {
     display: flex;
+    flex-direction: column;
+}
+
+.footer-sign-up {
+    display: flex;
+}
+
+.footer-sign-up-text {
+    display: flex;
+    flex-direction: column;
 }
 
