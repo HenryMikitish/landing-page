@@ -18,6 +18,8 @@ body {
 .header-logo {
     display: flex;
     align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px rgb(206, 206, 255);
 }
 
 .header ul {
@@ -92,6 +94,7 @@ body {
 .information-illustrations-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 100px;
     margin: 20px;
 }
@@ -127,18 +130,18 @@ body {
 }
 
 .the-quote {
-    width: 500px;
+    max-width: 500px;
     color:rgb(0, 0, 0);
     font-weight: 100;
     font-size: 24px;
     font-style: italic;
+    padding: 10px;
 }
 
 .attribution {
-    width: 500px;
     text-align: right;
     font-size: 16px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 10px 0px 275px;
 }
 
 
@@ -153,7 +156,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
     background-color: rgb(142, 142, 227);
     margin: 40px 0px 40px 0px;
     padding: 20px 0px 20px 0px;
