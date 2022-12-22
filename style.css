@@ -11,12 +11,29 @@ body {
 
 .welcome {
     display: flex;
+    background-color: rgb(155, 155, 179);
+    flex-grow: 1;
 }
 
-.information {
+.welcome img {
+    width: 200px;
+    height: 200px;
+}
+
+.information-illustrations-container {
     display: flex;
+}
+
+.information-illustrations {
+    display: flex
+}
+
+.information-illustrations img {
+    width: 100px;
+    height: 100px;
 }
 
 .quote {
     display: flex;
 }
+
