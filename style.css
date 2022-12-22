@@ -7,12 +7,41 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 .welcome {
     display: flex;
     background-color: rgb(155, 155, 179);
     flex-grow: 1;
+}
+
+.welcome-words {
+    display: flex;
+    flex-direction: column;
 }
 
 .welcome img {
