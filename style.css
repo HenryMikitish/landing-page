@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(233, 233, 238);
 }
 
 /*HEADER CONTAINER*/
@@ -68,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    background-color: rgb(179, 179, 188);
+    background-color:rgb(206, 206, 255);
     width: 90px;
     padding: 6px;
 }
@@ -109,7 +110,6 @@ body {
 .information-illustrations img {
     width: 100px;
     height: 100px;
-    padding: 0px 0px 10px 0px;
     border-style: solid;
     border-width: 5px;
     border-color:rgb(33, 33, 66)
@@ -144,12 +144,41 @@ body {
 
 /*FOOTER SIGN-UP CONTAINER*/
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-sign-up {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(142, 142, 227);
+    margin: 40px 0px 40px 0px;
+    padding: 20px 0px 20px 0px;
+    width: 750px;
+    border-color:rgb(142, 142, 227);
+    border-radius: 5px;
+    border-width:10px;
 }
 
 .footer-sign-up-text {
     display: flex;
     flex-direction: column;
+}
+
+.footer .text-do {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer-sign-up .sign-up {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color:rgb(206, 206, 255);
+    width: 90px;
+    padding: 6px;
 }
 
